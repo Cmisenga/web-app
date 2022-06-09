@@ -5,7 +5,7 @@ pipeline {
         stage('SCM-Checkout') { 
             steps {
                 git branch: 'main', credentialsId: 'git-cred', 
-				url: 'https://github.com/vikas99341/web-app.git'
+				url: 'https://github.com/Cmisenga/web-app2.git'
             }
         }
         stage('clean-Compile') { 
